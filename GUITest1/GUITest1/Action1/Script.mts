@@ -7,11 +7,11 @@ WpfWindow("Build Time: 02/06/2023").WpfCheckBox("LabelBottom").Set "On" @@ hight
 wait 1
 WpfWindow("Build Time: 02/06/2023").WpfButton("NEXT").Click @@ hightlight id_;_2111131192_;_script infofile_;_ZIP::ssf26.xml_;_
 wait 1
-WpfWindow("Version EW302SVN0U0001").WpfButton("OK").Click @@ hightlight id_;_2136753896_;_script infofile_;_ZIP::ssf27.xml_;_
+WpfWindow("Version EW302SVN0U0001").WpfButton("OK").Click @@ hightlight id_;_65866_;_script infofile_;_ZIP::ssf34.xml_;_
 wait 1
 WpfWindow("Build Time: 02/06/2023").WpfObject("SETTING").Click 85,16 @@ hightlight id_;_2107747640_;_script infofile_;_ZIP::ssf28.xml_;_
 wait 1
-WpfWindow("Build Time: 02/06/2023").WpfEdit("txt_user").Set "admin" @@ hightlight id_;_1880517968_;_script infofile_;_ZIP::ssf29.xml_;_
+WpfWindow("Build Time: 02/06/2023").WpfEdit("txt_user").Set DataTable("user name", dtGlobalSheet) @@ hightlight id_;_1880517968_;_script infofile_;_ZIP::ssf29.xml_;_
 wait 1
 WpfWindow("Build Time: 02/06/2023").WpfEdit("txt_password").SetSecure "vnpt" @@ hightlight id_;_1880518304_;_script infofile_;_ZIP::ssf30.xml_;_
 wait 1
